@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <link href=" https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css " rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body class="corpo_formulario-imagens">
+        <section class="texto_container">
+            <h2 class="texto_titulo">Imagem de perfil</h2>
+            <p class="texto_descricao">Escolha uma foto da galeria, ou tire uma agora mesmo!<br>(não se esqueça de dar um belo sorriso!)</p>
+        </section>
+        <section class="foto_container">
+            <canvas width="480px" height="480px" style="background: yellow"></canvas>
+            <div class="foto_botoes">
+                <button class="botao_camera botao_foto" data-botao_camera>
+                    <svg viewBox="0 -2 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>camera [#962]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-380.000000, -3921.000000)" fill="#000000"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M334,3768.5 C331.791,3768.5 330,3770.291 330,3772.5 C330,3774.709 331.791,3776.5 334,3776.5 C336.209,3776.5 338,3774.709 338,3772.5 C338,3770.291 336.209,3768.5 334,3768.5 L334,3768.5 Z M331,3765 L331,3764 C331,3763.448 331.448,3763 332,3763 L336,3763 C336.552,3763 337,3763.448 337,3764 L337,3765 L331,3765 Z M337,3761 L331,3761 C329.895,3761 329,3761.895 329,3763 L329,3765 L326,3765 C324.895,3765 324,3765.895 324,3767 L324,3775 C324,3776.105 324.895,3777 326,3777 L327,3777 C327.552,3777 328,3776.552 328,3776 C328,3775.448 327.552,3775 327,3775 C326.448,3775 326,3774.552 326,3774 L326,3768 C326,3767.448 326.448,3767 327,3767 L341,3767 C341.552,3767 342,3767.448 342,3768 L342,3774 C342,3774.552 341.552,3775 341,3775 C340.448,3775 340,3775.448 340,3776 C340,3776.552 340.448,3777 341,3777 L342,3777 C343.105,3777 344,3776.105 344,3775 L344,3765 L343,3765 L343,3764 C343,3763.448 342.552,3763 342,3763 C341.448,3763 341,3763.448 341,3764 L341,3765 L339,3765 L339,3763 C339,3761.895 338.105,3761 337,3761 L337,3761 Z M334,3770.5 C335.103,3770.5 336,3771.397 336,3772.5 C336,3773.603 335.103,3774.5 334,3774.5 C332.897,3774.5 332,3773.603 332,3772.5 C332,3771.397 332.897,3770.5 334,3770.5 L334,3770.5 Z" id="camera-[#962]"> </path> </g> </g> </g> </g></svg>
+                </button>
+                <button class="botao_galeria botao_foto" data-botao_galeria>
+                    <svg viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>gallery_grid_view [#1405]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-259.000000, -680.000000)" fill="#000000"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M209.3,538 L206.15,538 C205.5704,538 205.1,537.552 205.1,537 C205.1,536.448 205.5704,536 206.15,536 L209.3,536 C209.8796,536 210.35,536.448 210.35,537 C210.35,537.552 209.8796,538 209.3,538 L209.3,538 Z M210.35,534 L205.1,534 C203.93975,534 203,534.895 203,536 L203,538 C203,539.105 203.93975,540 205.1,540 L210.35,540 C211.51025,540 212.45,539.105 212.45,538 L212.45,536 C212.45,534.895 211.51025,534 210.35,534 L210.35,534 Z M220.85,524 L217.7,524 C217.1204,524 216.65,523.552 216.65,523 C216.65,522.448 217.1204,522 217.7,522 L220.85,522 C221.4296,522 221.9,522.448 221.9,523 C221.9,523.552 221.4296,524 220.85,524 L220.85,524 Z M221.9,520 L216.65,520 C215.48975,520 214.55,520.895 214.55,522 L214.55,524 C214.55,525.105 215.48975,526 216.65,526 L221.9,526 C223.06025,526 224,525.105 224,524 L224,522 C224,520.895 223.06025,520 221.9,520 L221.9,520 Z M221.9,537 C221.9,537.552 221.4296,538 220.85,538 L217.7,538 C217.1204,538 216.65,537.552 216.65,537 L216.65,531 C216.65,530.448 217.1204,530 217.7,530 L220.85,530 C221.4296,530 221.9,530.448 221.9,531 L221.9,537 Z M221.9,528 L216.65,528 C215.48975,528 214.55,528.895 214.55,530 L214.55,538 C214.55,539.105 215.48975,540 216.65,540 L221.9,540 C223.06025,540 224,539.105 224,538 L224,530 C224,528.895 223.06025,528 221.9,528 L221.9,528 Z M210.35,529 C210.35,529.552 209.8796,530 209.3,530 L206.15,530 C205.5704,530 205.1,529.552 205.1,529 L205.1,523 C205.1,522.448 205.5704,522 206.15,522 L209.3,522 C209.8796,522 210.35,522.448 210.35,523 L210.35,529 Z M210.35,520 L205.1,520 C203.93975,520 203,520.895 203,522 L203,530 C203,531.105 203.93975,532 205.1,532 L210.35,532 C211.51025,532 212.45,531.105 212.45,530 L212.45,522 C212.45,520.895 211.51025,520 210.35,520 L210.35,520 Z" id="gallery_grid_view-[#1405]"> </path> </g> </g> </g> </g></svg>
+                </button>
+            </div>
+        </section>
+    </body>
+</html>

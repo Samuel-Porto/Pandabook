@@ -1,0 +1,26 @@
+@import url("header.css");
+
+@import url("perfil/perfil.css");
+
+@import url("formulario/informacoes.css");
+@import url("formulario/imagens.css");
+
+:root {
+    --fonte-principal: 'Poppins', sans-serif;
+    --cor-claro: #F6F1F1;
+    --cor-botao: #AFD3E2;
+    --cor-erro: #DB005B;
+    --cor-escuro: #146C94;
+    --cor-fonte-escuro: #06283D;
+    --cor-fundo: #19A7CE;
+    --cor-fonte-semi-escuro: #453C67;
+}
+
+body {
+    background: var(--cor-fundo);
+    color: var(--cor-claro);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    height: 100vh;
+}

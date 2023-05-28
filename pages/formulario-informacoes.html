@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <link href=" https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css " rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body class="corpo_formulario-informacoes">
+        <section class="texto_container">
+            <h2 class="texto_titulo">Criar conta</h2>
+            <p class="texto_descricao">Ao criar a conta, você poderá ter seu perfil com suas fotos, temas personalizados, poderá postar mensagens e muito mais!</p>
+        </section>
+        <section class="formulario_container">
+            <div class="formulario">
+                <div class="formulario_titulo">Informações</div>
+                <form id="form" data-formulario>
+                    <fieldset class="formulario_campo">
+                        <input class="formulario_input" required type="text" name="nome" id="nome" placeholder="Nome completo" minlength="4">
+                        <span class="formulario_erro"></span>
+                    </fieldset>
+                    <fieldset class="formulario_campo">
+                        <input class="formulario_input" required type="email" name="email" id="email" placeholder="Email">
+                        <span class="formulario_erro"></span>
+                    </fieldset>
+                    <fieldset class="formulario_campo">
+                        <input class="formulario_input" required type="password" name="senha" id="senha" placeholder="Senha" minlength="8">
+                        <span class="formulario_erro"></span>
+                    </fieldset>
+                    <fieldset class="formulario_campo">
+                        <input class="formulario_input" required type="tel" name="numero" id="numero" placeholder="Número" minlength="11" maxlength="14"">
+                        <span class="formulario_erro"></span>
+                    </fieldset>
+                    <button class="formulario_botao" type="submit" data-botao-enviar>Enviar</button>
+                    <fieldset class="formulario_termos">
+                        <input class="formulario_termos" required type="checkbox" data-termos>
+                        <p class="termos_descricao">Aceito os <span class="destacado">politicas de privacidade</span> e os <span class="destacado">termos de uso</span></p>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <script src="../js/criar-conta/formulario.js" type="module"></script>
+    </body>
+</html>

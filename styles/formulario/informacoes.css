@@ -1,0 +1,105 @@
+.corpo_formulario-informacoes {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto_container, .formulario_container {
+    margin: 0 .5rem;
+}
+
+.texto_container {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.texto_titulo {
+    font-size: 64px;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.texto_descricao {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.formulario_container {
+    background: var(--cor-claro);
+    border-radius: .5rem;
+    box-shadow: 8px 8px var(--cor-escuro);
+    color: var(--cor-fundo);
+    padding: 2rem;
+}
+.formulario_titulo {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 1rem 0;
+    text-align: center;
+}
+.formulario_container .formulario_input {
+    background: var(--cor-claro);
+    border: 2px solid var(--cor-fundo);
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: var(--cor-escuro);
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: .25rem 0;
+    padding: .75rem;
+    width: 100%;
+}
+.formulario_container .formulario_input:focus {
+    outline: none;
+}
+.formulario_container .formulario_erro {
+    color: var(--cor-erro);
+    font-size: 16px;
+    margin: 2rem 0;
+}
+.formulario_container .formulario_botao {
+    background: var(--cor-fundo);
+    border: none;
+    border-radius: 12px;
+    color: var(--cor-claro);
+    font-size: 24px;
+    font-weight: 600;
+    margin: .25rem 0;
+    padding: .5rem 0;
+    width: 100%;
+}
+.formulario_container .formulario_termos {
+    align-items: center;
+    color: var(--cor-escuro);
+    display: flex;
+}
+.formulario_container .termos_descricao {
+    display: inline;
+    font-size: 12px;
+}
+.corpo_formulario-informacoes .destacado {
+    font-weight: 600;
+}
+.corpo_formulario-informacoes .destacado:hover {
+    cursor: pointer;
+}
+
+@media (orientation: landscape) {
+    .corpo_formulario-informacoes {
+        display: flex;
+        flex-direction: row;
+        margin: 0 2rem;
+        
+    }
+
+    .texto_container, .formulario_container {
+        margin: 0 2rem;
+        width: 50%;
+        max-width: 750px;
+    }
+    .informacao {
+        display: block;
+    }
+}
